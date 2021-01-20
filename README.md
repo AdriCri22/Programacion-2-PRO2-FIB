@@ -6,10 +6,14 @@ Para comprimir archivos el .tar:
   
       Para comprimir archivos concretos:
               
-                tar -cvf archivo.tar archivo.hh archivo.cc
+        tar -cvf archivo.tar archivo.hh archivo.cc
                 
       Para comprimir todos los archivos con la extensión .cc
       
-                tar -cvf archivo.tar *.cc
+        tar -cvf archivo.tar *.cc
                 
-  - En Windows descargar el programa 7-Zip
+  - En Windows descargar el programa 7-Zip.
+  
+  Para tener un ejemplo del Makefile consultad la práctica del trabajo final.
+
+  Para compilar y ejecutar programas con un sólo comando consultad: https://github.com/AdriCri22/Programacion-1-PRO1-FIB
