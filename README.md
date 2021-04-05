@@ -14,6 +14,21 @@ Para comprimir archivos el .tar:
                 
   - En Windows descargar el programa 7-Zip.
   
-  Para tener un ejemplo del Makefile consultad la práctica del trabajo final.
-
-  Para compilar y ejecutar programas con un sólo comando consultad: https://github.com/AdriCri22/Programacion-1-PRO1-FIB
+  Para tener un ejemplo del Makefile consultad la práctica del trabajo final https://github.com/AdriCri22/Programacion-2-PRO2-FIB/tree/main/Trabajo%20Final.
+  
+Para compilar y ejecutar programas:    
+  - En Linux:
+       
+        g++ -O2 -Wall -std=c++11 -o PROGRAM_NAME PROGRAM_NAME.cc
+        ./PROGRAM_NAME
+        
+  - En Windows: 
+        
+        g++ -c PROGRAM_NAME.cc
+        g++ -o program.exe PROGRAM_NAME.o
+        program.exe
+  
+  Para compilar todos los archivos de una misma extensión se puede usar:
+      
+       *.cc
+   En este caso compilamos todos los .cc
